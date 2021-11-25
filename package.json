@@ -1,0 +1,14 @@
+{
+  "name": "out-context",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joeydoesntsharefood/out-context.git",
+  "author": "Mateus Spnton <spntn.mateus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.27.7"
+  },
+  "scripts": {
+    "dev": "browser-sync start -s -f '**/*'"
+  }
+}

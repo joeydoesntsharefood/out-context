@@ -1,0 +1,131 @@
+body {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 16px;
+}
+
+#navbarSupportedContent {
+  text-align: center;
+}
+
+#imgLogo {
+  width: 150px;
+  border-radius: 80px;
+}
+
+#mainContaint {
+  margin-bottom: 30px;
+}
+
+.bestOf {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.bestOfImg {
+  width: 300px;
+}
+#bannerImg {
+  max-width: 100%;
+}
+
+.bestOfText {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+.bestOf:hover .bestOfText {
+  color: red;
+}
+
+.productsGride {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product:hover .nameProducts{
+  color: red !important;
+}
+.nameProducts {
+  color: #000;
+  position: absolute;
+  bottom: -20px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#footer {
+  max-width: 100%;
+  background-color: grey;
+  padding-top: 40px;
+  color: rgb(196, 194, 194);
+}
+.aboutFooter {
+  font-size: 12px;
+}
+
+#linkFooter ul li a {
+  color:rgb(196, 194, 194);
+  text-decoration: none;
+}
+#linkFooter ul li a:hover {
+  color: red;
+}
+
+.socialMedia {
+  color: rgb(196, 194, 194);
+  text-decoration: none;
+}
+.socialMedia:hover {
+  color: red;
+}
+/*Responsive Section*/
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1500px) {
+  #imgLogo {
+    width: 100px;
+    border-radius: 80px;
+  }
+  #bannerImg {
+    max-width: 100%;
+  }
+  .bestOfText {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mobile {
+    display: block;
+  }
+  .lg {
+    display: none;
+  }
+  #bannerImg {
+    max-width: 100%;
+  }
+  .bestOfText {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mobile {
+    display: block;
+  }
+  .lg {
+    display: none;
+  }
+  #bannerImg {
+    max-width: 100%;
+  }
+  .bestOfText {
+    font-size: 20px;
+  }
+}
