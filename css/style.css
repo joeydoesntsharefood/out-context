@@ -113,6 +113,11 @@ body {
   .bestOfText {
     font-size: 30px;
   }
+  .nav-item:hover .nav-link-text{
+    background-color: red;
+    color: white !important;
+    border-radius: 20px;
+  }
 }
 
 @media screen and (max-width: 900px) {

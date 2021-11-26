@@ -1,0 +1,1 @@
+$(document).on('click', '.navbar-toggler', () => { document.querySelector('.navbar').classList.toggle('fixed-top') });
